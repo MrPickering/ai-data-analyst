@@ -1,0 +1,5 @@
+anthropic
+click
+rich
+tabulate
+python-dotenv

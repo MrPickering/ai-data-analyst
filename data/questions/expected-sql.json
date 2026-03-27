@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "What were our top 5 products by revenue last quarter?",
+        "expected_sql": "SELECT p.name, SUM(o.total) AS revenue FROM orders o JOIN products p ON o.product_id = p.product_id WHERE o.order_date >= date('now', '-3 months') AND o.status = 'completed' GROUP BY p.name ORDER BY revenue DESC LIMIT 5;"
+    },
+    {
+        "id": 2,
+        "question": "How many new customers did we get each month this year?",
+        "expected_sql": "SELECT strftime('%Y-%m', join_date) AS month, COUNT(*) AS new_customers FROM customers WHERE strftime('%Y', join_date) = strftime('%Y', 'now') GROUP BY month ORDER BY month;"
+    },
+    {
+        "id": 3,
+        "question": "What's our average order value by customer segment?",
+        "expected_sql": "SELECT c.segment, AVG(o.total) AS avg_order_value FROM orders o JOIN customers c ON o.customer_id = c.customer_id WHERE o.status = 'completed' GROUP BY c.segment ORDER BY avg_order_value DESC;"
+    },
+    {
+        "id": 4,
+        "question": "Which sales rep has the highest quota attainment?",
+        "expected_sql": "SELECT sr.name, sr.quota, SUM(o.total) AS total_sales, ROUND(SUM(o.total) / sr.quota * 100, 2) AS quota_attainment_pct FROM sales_reps sr JOIN orders o ON sr.sales_rep_id = o.sales_rep_id WHERE o.status = 'completed' GROUP BY sr.sales_rep_id ORDER BY quota_attainment_pct DESC LIMIT 1;"
+    },
+    {
+        "id": 5,
+        "question": "What are our most returned products?",
+        "expected_sql": "SELECT p.name, COUNT(r.return_id) AS return_count, ROUND(COUNT(r.return_id) * 100.0 / COUNT(DISTINCT o.order_id), 2) AS return_rate_pct FROM products p JOIN orders o ON p.product_id = o.product_id LEFT JOIN returns r ON o.order_id = r.order_id GROUP BY p.product_id ORDER BY return_count DESC LIMIT 10;"
+    },
+    {
+        "id": 6,
+        "question": "Show me month-over-month revenue growth by product category for the last 12 months",
+        "expected_sql": "WITH monthly AS (SELECT p.category, strftime('%Y-%m', o.order_date) AS month, SUM(o.total) AS revenue FROM orders o JOIN products p ON o.product_id = p.product_id WHERE o.order_date >= date('now', '-12 months') AND o.status = 'completed' GROUP BY p.category, month) SELECT m1.category, m1.month, m1.revenue, ROUND((m1.revenue - m2.revenue) / m2.revenue * 100, 2) AS growth_pct FROM monthly m1 LEFT JOIN monthly m2 ON m1.category = m2.category AND m2.month = strftime('%Y-%m', date(m1.month || '-01', '-1 month')) ORDER BY m1.category, m1.month;"
+    },
+    {
+        "id": 7,
+        "question": "Which customers have a declining order trend over the last 3 quarters?",
+        "expected_sql": "WITH quarterly AS (SELECT c.customer_id, c.name, CASE WHEN CAST(strftime('%m', o.order_date) AS INTEGER) BETWEEN 1 AND 3 THEN 'Q1' WHEN CAST(strftime('%m', o.order_date) AS INTEGER) BETWEEN 4 AND 6 THEN 'Q2' WHEN CAST(strftime('%m', o.order_date) AS INTEGER) BETWEEN 7 AND 9 THEN 'Q3' ELSE 'Q4' END AS quarter, strftime('%Y', o.order_date) AS year, SUM(o.total) AS revenue FROM orders o JOIN customers c ON o.customer_id = c.customer_id WHERE o.status = 'completed' GROUP BY c.customer_id, year, quarter) SELECT customer_id, name FROM quarterly GROUP BY customer_id HAVING COUNT(DISTINCT year || quarter) >= 3 ORDER BY name LIMIT 20;"
+    },
+    {
+        "id": 8,
+        "question": "What's the correlation between discount rate and return rate?",
+        "expected_sql": "SELECT CASE WHEN o.discount = 0 THEN '0%' WHEN o.discount <= 0.1 THEN '1-10%' WHEN o.discount <= 0.2 THEN '11-20%' ELSE '21%+' END AS discount_range, COUNT(DISTINCT o.order_id) AS total_orders, COUNT(DISTINCT r.return_id) AS returns, ROUND(COUNT(DISTINCT r.return_id) * 100.0 / COUNT(DISTINCT o.order_id), 2) AS return_rate_pct FROM orders o LEFT JOIN returns r ON o.order_id = r.order_id GROUP BY discount_range ORDER BY discount_range;"
+    },
+    {
+        "id": 9,
+        "question": "Identify sales reps whose territory performance is below the company average but improving",
+        "expected_sql": "WITH rep_monthly AS (SELECT sr.sales_rep_id, sr.name, sr.territory, strftime('%Y-%m', o.order_date) AS month, SUM(o.total) AS monthly_revenue FROM sales_reps sr JOIN orders o ON sr.sales_rep_id = o.sales_rep_id WHERE o.status = 'completed' GROUP BY sr.sales_rep_id, month) SELECT sales_rep_id, name, territory, AVG(monthly_revenue) AS avg_monthly_revenue FROM rep_monthly GROUP BY sales_rep_id HAVING avg_monthly_revenue < (SELECT AVG(total) FROM orders WHERE status = 'completed') ORDER BY name LIMIT 10;"
+    },
+    {
+        "id": 10,
+        "question": "What would our revenue look like if we eliminated our top 5 most-returned products?",
+        "expected_sql": "WITH top_returned AS (SELECT p.product_id FROM products p JOIN orders o ON p.product_id = o.product_id JOIN returns r ON o.order_id = r.order_id GROUP BY p.product_id ORDER BY COUNT(r.return_id) DESC LIMIT 5) SELECT SUM(o.total) AS current_revenue, SUM(CASE WHEN o.product_id NOT IN (SELECT product_id FROM top_returned) THEN o.total ELSE 0 END) AS adjusted_revenue, ROUND((SUM(o.total) - SUM(CASE WHEN o.product_id NOT IN (SELECT product_id FROM top_returned) THEN o.total ELSE 0 END)) / SUM(o.total) * 100, 2) AS revenue_impact_pct FROM orders o WHERE o.status = 'completed';"
+    }
+]

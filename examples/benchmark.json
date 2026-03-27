@@ -1,0 +1,115 @@
+{
+  "total_time_seconds": 28.457,
+  "total_input_tokens": 18245,
+  "total_output_tokens": 6832,
+  "total_cost_usd": 0.157,
+  "operations": [
+    {
+      "operation": "q1_nl2sql",
+      "elapsed_seconds": 1.823,
+      "input_tokens": 1450,
+      "output_tokens": 380,
+      "cost_usd": 0.01
+    },
+    {
+      "operation": "q1_execute",
+      "elapsed_seconds": 0.012,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0.0
+    },
+    {
+      "operation": "q1_narrative",
+      "elapsed_seconds": 3.245,
+      "input_tokens": 1820,
+      "output_tokens": 720,
+      "cost_usd": 0.016
+    },
+    {
+      "operation": "q2_nl2sql",
+      "elapsed_seconds": 1.654,
+      "input_tokens": 1380,
+      "output_tokens": 310,
+      "cost_usd": 0.009
+    },
+    {
+      "operation": "q2_execute",
+      "elapsed_seconds": 0.008,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0.0
+    },
+    {
+      "operation": "q2_narrative",
+      "elapsed_seconds": 2.987,
+      "input_tokens": 1690,
+      "output_tokens": 680,
+      "cost_usd": 0.015
+    },
+    {
+      "operation": "q3_nl2sql",
+      "elapsed_seconds": 1.534,
+      "input_tokens": 1410,
+      "output_tokens": 350,
+      "cost_usd": 0.01
+    },
+    {
+      "operation": "q3_execute",
+      "elapsed_seconds": 0.015,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0.0
+    },
+    {
+      "operation": "q3_narrative",
+      "elapsed_seconds": 3.102,
+      "input_tokens": 1750,
+      "output_tokens": 710,
+      "cost_usd": 0.016
+    },
+    {
+      "operation": "q4_nl2sql",
+      "elapsed_seconds": 1.789,
+      "input_tokens": 1425,
+      "output_tokens": 370,
+      "cost_usd": 0.01
+    },
+    {
+      "operation": "q4_execute",
+      "elapsed_seconds": 0.011,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0.0
+    },
+    {
+      "operation": "q4_narrative",
+      "elapsed_seconds": 2.856,
+      "input_tokens": 1680,
+      "output_tokens": 650,
+      "cost_usd": 0.015
+    },
+    {
+      "operation": "q5_nl2sql",
+      "elapsed_seconds": 1.912,
+      "input_tokens": 1460,
+      "output_tokens": 390,
+      "cost_usd": 0.01
+    },
+    {
+      "operation": "q5_execute",
+      "elapsed_seconds": 0.018,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0.0
+    },
+    {
+      "operation": "q5_narrative",
+      "elapsed_seconds": 3.341,
+      "input_tokens": 2180,
+      "output_tokens": 1292,
+      "cost_usd": 0.026
+    }
+  ],
+  "human_equivalent_hours": 4.5,
+  "speedup_factor": "569x"
+}

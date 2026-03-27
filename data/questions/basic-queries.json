@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "question": "What were our top 5 products by revenue last quarter?"
+    },
+    {
+        "id": 2,
+        "question": "How many new customers did we get each month this year?"
+    },
+    {
+        "id": 3,
+        "question": "What's our average order value by customer segment?"
+    },
+    {
+        "id": 4,
+        "question": "Which sales rep has the highest quota attainment?"
+    },
+    {
+        "id": 5,
+        "question": "What are our most returned products?"
+    }
+]

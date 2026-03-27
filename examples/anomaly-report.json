@@ -1,0 +1,65 @@
+[
+  {
+    "type": "spike",
+    "metric": "daily_order_count",
+    "date": "2024-11-29",
+    "expected_value": 14,
+    "actual_value": 42,
+    "explanation": "Black Friday spike — 3x normal daily volume. Expected seasonal pattern consistent with retail calendar.",
+    "requires_investigation": false
+  },
+  {
+    "type": "spike",
+    "metric": "daily_order_count",
+    "date": "2024-12-15",
+    "expected_value": 14,
+    "actual_value": 38,
+    "explanation": "Holiday season pre-Christmas rush. Consistent with Q4 seasonal patterns in previous year.",
+    "requires_investigation": false
+  },
+  {
+    "type": "outlier",
+    "metric": "customer_total_spend",
+    "date": null,
+    "expected_value": 8500,
+    "actual_value": 87250,
+    "explanation": "Single Enterprise customer (Acme Corp) with total spend 10x the average. Multiple large server and integration purchases. Likely a key account.",
+    "requires_investigation": true
+  },
+  {
+    "type": "drop",
+    "metric": "monthly_revenue",
+    "date": "2025-02",
+    "expected_value": 185000,
+    "actual_value": 112000,
+    "explanation": "39% revenue drop in February compared to January. Likely post-holiday slowdown combined with shortest month. Compare to Feb 2024 for year-over-year context.",
+    "requires_investigation": true
+  },
+  {
+    "type": "pattern",
+    "metric": "return_rate_by_category",
+    "date": null,
+    "expected_value": 10,
+    "actual_value": 18.5,
+    "explanation": "Electronics category return rate (18.5%) is nearly double the company average (10%). The Budget Laptop alone accounts for 20% returns. Possible quality issue with supplier.",
+    "requires_investigation": true
+  },
+  {
+    "type": "outlier",
+    "metric": "sales_rep_quota_attainment",
+    "date": null,
+    "expected_value": 100,
+    "actual_value": 62,
+    "explanation": "Two sales reps in the Plains and Upper Midwest territories are below 65% quota attainment while company average is 98%. Territories may need quota adjustment or additional support.",
+    "requires_investigation": true
+  },
+  {
+    "type": "trend",
+    "metric": "discount_rate_trend",
+    "date": "2025-Q3",
+    "expected_value": 8,
+    "actual_value": 14.2,
+    "explanation": "Average discount rate has increased from 8% in Q1 to 14.2% in Q3. This margin erosion trend warrants review of discounting policies.",
+    "requires_investigation": true
+  }
+]

@@ -1,0 +1,501 @@
+return_id,order_id,return_date,reason,refund_amount,condition
+1,3946,2024-09-23,Product not as described,2469.54,changed_mind
+2,1056,2025-08-26,No longer needed,322.9,not_as_described
+3,3571,2024-04-08,Wrong item shipped,265.29,wrong_item
+4,2851,2024-08-02,Incompatible with existing setup,2342.76,defective
+5,4167,2025-03-01,Incompatible with existing setup,408.13,changed_mind
+6,10,2025-02-09,Changed mind after purchase,1516.72,wrong_item
+7,1909,2024-06-08,Duplicate order,3866.19,not_as_described
+8,1033,2025-06-27,Product not as described,918.71,changed_mind
+9,3824,2024-03-23,Incompatible with existing setup,385.45,not_as_described
+10,2057,2025-04-07,Better price found elsewhere,2138.96,changed_mind
+11,1770,2024-08-28,Better price found elsewhere,3773.85,defective
+12,3204,2025-01-09,Wrong item shipped,232.61,wrong_item
+13,3248,2025-12-08,Product not as described,684.4,not_as_described
+14,2486,2024-02-04,Wrong item shipped,5154.35,wrong_item
+15,747,2026-01-11,Product not as described,457.88,defective
+16,2294,2024-10-21,Wrong item shipped,1392.92,not_as_described
+17,2700,2024-09-26,Product was defective on arrival,228.51,not_as_described
+18,1146,2025-05-07,No longer needed,574.05,wrong_item
+19,4499,2024-11-23,Product was defective on arrival,2034.66,not_as_described
+20,3207,2024-11-15,Product was defective on arrival,5628.19,not_as_described
+21,4891,2024-12-03,Product not as described,4968.25,defective
+22,1940,2024-03-01,Wrong item shipped,2347.18,wrong_item
+23,176,2025-06-16,Better price found elsewhere,7382.27,defective
+24,3972,2025-06-05,Changed mind after purchase,3409.4,changed_mind
+25,2370,2025-08-14,Changed mind after purchase,120.98,wrong_item
+26,3821,2024-04-21,Incompatible with existing setup,43.79,wrong_item
+27,3606,2025-01-31,Duplicate order,3229.57,wrong_item
+28,126,2024-09-10,Duplicate order,1863.16,changed_mind
+29,1829,2025-07-02,No longer needed,7631.89,defective
+30,432,2024-06-16,Better price found elsewhere,2616.53,changed_mind
+31,4124,2024-11-16,Incompatible with existing setup,3692.12,not_as_described
+32,998,2024-09-08,Better price found elsewhere,175.33,not_as_described
+33,4402,2025-07-17,Wrong item shipped,9658.55,wrong_item
+34,243,2024-03-14,Incompatible with existing setup,2333.61,wrong_item
+35,2142,2025-06-22,Duplicate order,2800.98,changed_mind
+36,3139,2025-05-29,Product was defective on arrival,2604.51,not_as_described
+37,2174,2025-07-30,Duplicate order,656.69,changed_mind
+38,2344,2025-10-26,Product not as described,1196.68,defective
+39,951,2025-12-28,Wrong item shipped,384.34,wrong_item
+40,337,2025-12-26,Incompatible with existing setup,7976.12,defective
+41,4028,2024-06-02,Product was defective on arrival,10595.7,wrong_item
+42,681,2024-12-08,Changed mind after purchase,516.17,wrong_item
+43,2767,2025-01-25,No longer needed,484.69,defective
+44,569,2024-11-08,Duplicate order,290.25,changed_mind
+45,1657,2024-10-26,Product was defective on arrival,14115.76,wrong_item
+46,2032,2025-12-08,Product was defective on arrival,761.45,defective
+47,2838,2024-11-06,No longer needed,286.07,wrong_item
+48,1273,2024-06-01,Better price found elsewhere,152.35,wrong_item
+49,2862,2025-12-07,Wrong item shipped,1159.5,not_as_described
+50,2354,2024-10-21,Wrong item shipped,213.07,not_as_described
+51,4036,2024-05-07,Product was defective on arrival,6738.23,changed_mind
+52,148,2025-09-25,Duplicate order,64.59,wrong_item
+53,4280,2025-11-25,No longer needed,44.29,defective
+54,4820,2024-05-08,Product not as described,484.07,changed_mind
+55,959,2025-05-29,Product not as described,28.59,wrong_item
+56,2517,2024-11-03,Product not as described,732.6,wrong_item
+57,4475,2025-11-26,Wrong item shipped,191.61,wrong_item
+58,4886,2024-08-28,Duplicate order,698.56,defective
+59,2696,2025-03-31,Changed mind after purchase,144.42,not_as_described
+60,4848,2025-11-27,Product not as described,55.42,defective
+61,1745,2025-04-08,Product was defective on arrival,710.77,defective
+62,1181,2025-02-06,Incompatible with existing setup,5906.88,defective
+63,4940,2025-12-19,Wrong item shipped,1427.59,defective
+64,2949,2024-05-02,Incompatible with existing setup,1780.89,not_as_described
+65,4534,2025-07-04,Duplicate order,1393.57,changed_mind
+66,4209,2025-09-08,Changed mind after purchase,57.58,changed_mind
+67,2886,2024-12-25,Duplicate order,91.35,wrong_item
+68,3985,2025-06-16,Incompatible with existing setup,29841.61,wrong_item
+69,818,2025-03-14,Product was defective on arrival,1194.87,changed_mind
+70,593,2024-09-30,Changed mind after purchase,403.21,defective
+71,1517,2025-12-06,Product not as described,1088.05,defective
+72,3747,2026-01-13,Duplicate order,803.0,wrong_item
+73,2971,2025-09-23,Incompatible with existing setup,2598.38,defective
+74,896,2024-12-13,Better price found elsewhere,531.87,changed_mind
+75,1622,2024-06-11,No longer needed,4211.35,changed_mind
+76,444,2025-06-16,Product not as described,1840.68,defective
+77,1172,2025-09-24,Changed mind after purchase,565.05,defective
+78,2464,2024-12-01,Product not as described,1325.03,wrong_item
+79,553,2024-06-06,Incompatible with existing setup,720.8,wrong_item
+80,2498,2024-11-15,Better price found elsewhere,840.1,defective
+81,1269,2024-10-08,Changed mind after purchase,35.66,not_as_described
+82,11,2025-07-03,No longer needed,78.26,not_as_described
+83,4500,2025-06-15,Duplicate order,143.48,not_as_described
+84,4584,2025-10-12,Incompatible with existing setup,1096.66,defective
+85,2228,2024-12-22,Product not as described,3328.53,not_as_described
+86,3561,2025-07-06,Duplicate order,4746.16,changed_mind
+87,1014,2025-11-09,Changed mind after purchase,1245.1,changed_mind
+88,2936,2024-11-22,No longer needed,790.81,defective
+89,186,2025-03-01,No longer needed,7395.15,wrong_item
+90,4286,2024-02-13,Product was defective on arrival,4236.36,defective
+91,2737,2026-01-02,Incompatible with existing setup,301.65,defective
+92,1944,2024-07-14,Changed mind after purchase,2732.36,defective
+93,2743,2025-03-22,Wrong item shipped,6889.09,defective
+94,1139,2025-10-27,No longer needed,195.7,defective
+95,4973,2024-12-07,Changed mind after purchase,3968.93,defective
+96,2135,2025-01-13,Duplicate order,1093.36,changed_mind
+97,2899,2025-02-23,Product was defective on arrival,2881.39,defective
+98,1375,2025-09-27,Wrong item shipped,77.66,wrong_item
+99,3533,2025-11-20,Changed mind after purchase,400.64,not_as_described
+100,4770,2024-03-11,Duplicate order,2724.51,wrong_item
+101,2609,2024-12-20,Duplicate order,956.79,defective
+102,1079,2025-12-19,Wrong item shipped,3850.48,changed_mind
+103,4445,2024-11-17,Duplicate order,619.68,changed_mind
+104,2223,2024-07-08,Changed mind after purchase,55.72,defective
+105,4023,2024-09-28,Product was defective on arrival,849.19,wrong_item
+106,4832,2025-03-25,Wrong item shipped,3018.89,changed_mind
+107,3938,2024-05-01,Wrong item shipped,45.21,not_as_described
+108,2675,2024-03-08,Better price found elsewhere,9683.36,defective
+109,4809,2025-06-06,No longer needed,639.45,defective
+110,655,2024-02-27,Product was defective on arrival,774.44,defective
+111,2214,2024-06-10,No longer needed,1724.55,changed_mind
+112,2319,2025-12-31,Changed mind after purchase,4297.37,not_as_described
+113,852,2025-04-13,Changed mind after purchase,2631.52,not_as_described
+114,1048,2024-01-14,Incompatible with existing setup,1489.84,changed_mind
+115,2772,2024-12-08,Better price found elsewhere,427.08,defective
+116,2068,2024-12-15,Product not as described,1172.69,wrong_item
+117,2226,2025-03-30,Duplicate order,1970.4,changed_mind
+118,1756,2025-05-26,Duplicate order,188.99,changed_mind
+119,3444,2025-01-11,Product was defective on arrival,3999.51,wrong_item
+120,2165,2025-01-04,Changed mind after purchase,1163.62,not_as_described
+121,246,2025-05-26,Incompatible with existing setup,269.72,not_as_described
+122,4835,2024-08-23,Product was defective on arrival,1962.59,not_as_described
+123,2089,2025-05-11,No longer needed,671.1,wrong_item
+124,2474,2025-05-22,Incompatible with existing setup,295.18,changed_mind
+125,2504,2025-02-04,No longer needed,10775.6,wrong_item
+126,1942,2024-12-18,No longer needed,388.31,changed_mind
+127,4834,2026-01-17,Wrong item shipped,2860.18,changed_mind
+128,1833,2025-12-08,Changed mind after purchase,500.02,defective
+129,2925,2024-08-20,No longer needed,287.18,defective
+130,1862,2025-09-14,Product not as described,902.67,not_as_described
+131,2347,2024-10-15,Better price found elsewhere,677.43,not_as_described
+132,4052,2025-01-19,Incompatible with existing setup,125.85,wrong_item
+133,1279,2025-10-30,Changed mind after purchase,1128.5,changed_mind
+134,3791,2024-10-13,Incompatible with existing setup,1765.44,not_as_described
+135,4734,2025-05-17,Product was defective on arrival,273.05,changed_mind
+136,3889,2024-02-03,Better price found elsewhere,219.3,not_as_described
+137,4085,2024-08-23,No longer needed,977.73,changed_mind
+138,1706,2025-06-28,Changed mind after purchase,3662.34,not_as_described
+139,1527,2025-09-18,Wrong item shipped,219.17,changed_mind
+140,538,2026-02-15,Wrong item shipped,1291.87,changed_mind
+141,4191,2025-09-02,Changed mind after purchase,968.96,defective
+142,13,2024-11-10,Product not as described,1181.16,changed_mind
+143,1661,2024-04-20,Wrong item shipped,2596.98,defective
+144,3844,2025-12-16,Changed mind after purchase,447.74,not_as_described
+145,3907,2024-04-28,No longer needed,19470.23,changed_mind
+146,3313,2024-10-10,Wrong item shipped,2326.51,defective
+147,3458,2024-10-15,No longer needed,558.17,not_as_described
+148,4594,2025-09-06,Duplicate order,3174.13,defective
+149,2315,2025-12-23,Incompatible with existing setup,306.53,wrong_item
+150,2506,2025-01-04,Wrong item shipped,1750.45,changed_mind
+151,4664,2024-06-26,Better price found elsewhere,656.72,wrong_item
+152,3406,2025-07-16,Wrong item shipped,7963.25,defective
+153,691,2024-05-02,No longer needed,14568.53,not_as_described
+154,1851,2025-07-05,Product not as described,2404.13,not_as_described
+155,62,2024-09-01,Product not as described,3039.29,wrong_item
+156,1544,2024-05-28,Product was defective on arrival,4270.33,changed_mind
+157,207,2024-03-12,Better price found elsewhere,1257.57,wrong_item
+158,935,2025-12-04,Wrong item shipped,1551.91,changed_mind
+159,1712,2025-07-28,Duplicate order,1952.43,defective
+160,3560,2025-06-01,No longer needed,1226.36,defective
+161,4265,2025-07-04,Product not as described,1878.38,wrong_item
+162,4151,2024-08-23,Duplicate order,302.45,changed_mind
+163,3863,2024-06-23,Incompatible with existing setup,135.98,not_as_described
+164,2756,2025-05-15,Changed mind after purchase,1102.76,wrong_item
+165,3369,2024-11-10,Better price found elsewhere,160.3,not_as_described
+166,3185,2025-09-26,No longer needed,5042.81,not_as_described
+167,3805,2026-02-08,Changed mind after purchase,4463.82,changed_mind
+168,2610,2025-04-22,Wrong item shipped,18283.27,wrong_item
+169,2841,2024-02-27,Duplicate order,1752.25,wrong_item
+170,336,2024-06-06,Product was defective on arrival,2754.47,changed_mind
+171,134,2024-12-07,Product was defective on arrival,493.73,changed_mind
+172,3256,2024-09-14,No longer needed,443.08,changed_mind
+173,2798,2025-01-13,Wrong item shipped,5821.5,wrong_item
+174,4725,2025-09-21,Wrong item shipped,357.94,not_as_described
+175,1669,2025-12-22,Better price found elsewhere,5521.89,changed_mind
+176,4165,2024-05-27,Changed mind after purchase,408.99,wrong_item
+177,1697,2025-02-20,No longer needed,4045.86,changed_mind
+178,2735,2024-09-12,Incompatible with existing setup,378.31,defective
+179,2341,2025-11-24,No longer needed,360.54,wrong_item
+180,792,2025-11-25,Changed mind after purchase,847.52,defective
+181,1113,2025-10-16,Incompatible with existing setup,290.42,not_as_described
+182,1793,2024-12-06,Changed mind after purchase,104.77,changed_mind
+183,2521,2024-06-03,Wrong item shipped,180.33,not_as_described
+184,2618,2024-09-29,Incompatible with existing setup,560.71,not_as_described
+185,1535,2025-03-05,No longer needed,175.81,wrong_item
+186,3902,2024-07-29,No longer needed,244.51,defective
+187,1884,2025-10-14,Product not as described,383.18,defective
+188,4051,2025-10-16,Product not as described,1342.61,changed_mind
+189,2462,2024-08-08,Duplicate order,1256.61,wrong_item
+190,3261,2024-05-08,Product not as described,1199.28,not_as_described
+191,782,2026-01-28,Wrong item shipped,133.22,defective
+192,248,2026-02-18,Better price found elsewhere,1487.59,defective
+193,2726,2024-10-31,Duplicate order,3901.82,wrong_item
+194,114,2024-03-12,Product was defective on arrival,750.45,defective
+195,803,2024-09-24,Changed mind after purchase,6354.98,defective
+196,1515,2024-09-12,Wrong item shipped,1241.48,changed_mind
+197,606,2026-01-03,Product not as described,464.99,wrong_item
+198,89,2025-08-13,Product not as described,3646.15,wrong_item
+199,4097,2025-01-14,Product not as described,826.19,not_as_described
+200,1505,2024-10-27,Product not as described,78.68,not_as_described
+201,452,2025-06-04,Changed mind after purchase,398.65,not_as_described
+202,1934,2025-04-07,Duplicate order,1421.33,defective
+203,312,2025-10-05,Incompatible with existing setup,6711.98,defective
+204,4077,2025-11-23,Wrong item shipped,3396.84,wrong_item
+205,2436,2025-03-02,Incompatible with existing setup,2609.68,changed_mind
+206,3792,2025-12-16,No longer needed,134.38,changed_mind
+207,3936,2024-02-13,Better price found elsewhere,853.25,wrong_item
+208,1586,2025-09-20,Better price found elsewhere,3145.57,wrong_item
+209,3005,2024-09-01,Product not as described,11385.73,defective
+210,1286,2025-09-20,Incompatible with existing setup,311.11,not_as_described
+211,619,2025-12-22,Incompatible with existing setup,2007.53,defective
+212,2126,2026-01-19,Better price found elsewhere,296.52,wrong_item
+213,1985,2025-10-20,No longer needed,399.45,wrong_item
+214,75,2025-10-11,No longer needed,944.96,wrong_item
+215,2707,2025-07-06,Product was defective on arrival,262.61,not_as_described
+216,3472,2024-04-27,Incompatible with existing setup,4816.47,changed_mind
+217,630,2024-02-28,Changed mind after purchase,9835.59,changed_mind
+218,2243,2025-07-31,Product not as described,1871.78,changed_mind
+219,3958,2024-10-24,No longer needed,812.2,changed_mind
+220,3517,2024-04-04,Wrong item shipped,99.72,changed_mind
+221,4247,2025-10-27,Wrong item shipped,459.7,wrong_item
+222,609,2025-05-13,Changed mind after purchase,388.24,not_as_described
+223,455,2025-12-31,Wrong item shipped,16592.67,wrong_item
+224,1797,2024-07-22,Wrong item shipped,134.86,defective
+225,3295,2025-02-20,No longer needed,708.82,defective
+226,1921,2024-05-07,Duplicate order,1647.65,not_as_described
+227,3264,2024-04-12,Better price found elsewhere,1718.98,defective
+228,1999,2025-04-26,Product not as described,748.09,wrong_item
+229,2289,2024-11-17,Product was defective on arrival,282.62,changed_mind
+230,476,2024-08-30,No longer needed,1267.65,changed_mind
+231,1215,2024-02-20,Better price found elsewhere,356.14,wrong_item
+232,3355,2025-11-03,Wrong item shipped,499.38,wrong_item
+233,1496,2025-08-27,No longer needed,1080.42,changed_mind
+234,90,2025-02-05,Incompatible with existing setup,672.19,wrong_item
+235,3644,2024-03-01,Duplicate order,92.17,wrong_item
+236,1453,2024-04-07,Product was defective on arrival,65.35,defective
+237,2309,2025-03-18,Changed mind after purchase,489.4,changed_mind
+238,3427,2025-06-22,Changed mind after purchase,4777.42,defective
+239,3385,2025-05-02,Better price found elsewhere,1689.07,not_as_described
+240,1864,2024-05-14,Changed mind after purchase,862.16,defective
+241,240,2024-09-20,Better price found elsewhere,388.4,changed_mind
+242,223,2025-11-09,Changed mind after purchase,44.27,defective
+243,220,2024-07-08,Changed mind after purchase,106.48,changed_mind
+244,4504,2024-09-07,Better price found elsewhere,311.98,changed_mind
+245,4287,2024-04-09,No longer needed,1382.74,not_as_described
+246,1632,2025-05-25,Incompatible with existing setup,1258.59,defective
+247,1755,2025-04-25,Changed mind after purchase,1918.47,not_as_described
+248,2856,2024-11-25,Product not as described,2943.5,wrong_item
+249,1578,2024-03-08,Wrong item shipped,1088.88,defective
+250,178,2025-09-21,Product not as described,523.97,wrong_item
+251,3322,2025-04-30,Product was defective on arrival,67.52,wrong_item
+252,2869,2024-02-16,Better price found elsewhere,257.25,changed_mind
+253,3046,2025-02-04,Product not as described,1355.26,not_as_described
+254,726,2024-07-15,No longer needed,10606.7,wrong_item
+255,688,2024-06-23,Duplicate order,49.75,not_as_described
+256,3246,2024-05-29,Changed mind after purchase,2695.17,wrong_item
+257,2488,2024-02-27,Product was defective on arrival,341.81,changed_mind
+258,121,2025-09-24,Incompatible with existing setup,1111.52,defective
+259,4747,2025-02-16,Duplicate order,880.9,wrong_item
+260,4519,2024-08-09,Wrong item shipped,63.56,defective
+261,4619,2024-02-24,Duplicate order,2342.91,defective
+262,2955,2025-09-29,No longer needed,5208.01,not_as_described
+263,3229,2024-03-20,Changed mind after purchase,127.33,changed_mind
+264,3525,2025-02-24,Changed mind after purchase,579.74,not_as_described
+265,196,2025-08-28,Incompatible with existing setup,325.7,changed_mind
+266,3368,2024-05-12,Product was defective on arrival,196.9,wrong_item
+267,2013,2025-12-14,Changed mind after purchase,775.26,defective
+268,4912,2024-12-15,Product not as described,79166.02,defective
+269,3143,2024-01-23,No longer needed,2940.91,wrong_item
+270,4079,2025-06-12,Wrong item shipped,54.95,changed_mind
+271,1609,2024-10-09,Incompatible with existing setup,1840.42,not_as_described
+272,3235,2024-04-17,Better price found elsewhere,4485.99,changed_mind
+273,1272,2025-05-06,No longer needed,390.65,defective
+274,1733,2024-11-10,Product not as described,1355.83,defective
+275,2293,2025-06-25,Changed mind after purchase,7941.74,changed_mind
+276,3361,2024-04-08,Wrong item shipped,1555.35,wrong_item
+277,1825,2024-07-25,Product not as described,1469.02,defective
+278,3813,2025-03-22,Product was defective on arrival,2451.78,wrong_item
+279,3595,2025-09-29,No longer needed,11916.48,defective
+280,4403,2024-11-06,Wrong item shipped,80.84,changed_mind
+281,4643,2026-01-01,Better price found elsewhere,37.24,not_as_described
+282,3363,2025-09-12,Incompatible with existing setup,627.62,defective
+283,4262,2026-01-25,Better price found elsewhere,4284.33,not_as_described
+284,2632,2025-01-30,No longer needed,1013.97,not_as_described
+285,217,2025-03-08,No longer needed,6693.1,defective
+286,3506,2025-05-01,No longer needed,605.09,not_as_described
+287,1184,2025-10-08,Better price found elsewhere,326.14,defective
+288,4072,2024-09-23,Product was defective on arrival,163.51,defective
+289,3389,2024-09-10,Incompatible with existing setup,47.92,not_as_described
+290,2064,2024-04-18,Changed mind after purchase,792.66,defective
+291,1112,2024-07-16,Wrong item shipped,4548.96,wrong_item
+292,2916,2024-04-03,Wrong item shipped,2146.65,not_as_described
+293,1150,2024-09-15,Product was defective on arrival,169.06,changed_mind
+294,2111,2025-01-01,Wrong item shipped,12231.73,not_as_described
+295,1539,2025-03-28,Duplicate order,68.8,not_as_described
+296,2539,2025-01-23,Product was defective on arrival,6675.88,defective
+297,737,2025-08-22,Better price found elsewhere,138.69,defective
+298,4902,2024-04-05,Duplicate order,2208.58,not_as_described
+299,865,2025-05-16,Incompatible with existing setup,1759.48,changed_mind
+300,1592,2025-05-13,Better price found elsewhere,834.59,changed_mind
+301,1901,2025-07-28,Duplicate order,242.63,defective
+302,4787,2024-11-13,Product not as described,242.5,not_as_described
+303,3986,2024-12-27,No longer needed,317.02,changed_mind
+304,2648,2025-05-03,Changed mind after purchase,4240.18,defective
+305,3836,2025-10-20,No longer needed,2427.88,defective
+306,518,2025-07-12,Wrong item shipped,2005.8,wrong_item
+307,4779,2025-09-14,Duplicate order,55.62,not_as_described
+308,202,2025-06-19,No longer needed,164.79,defective
+309,2713,2025-04-06,No longer needed,431.83,not_as_described
+310,3767,2025-09-19,Changed mind after purchase,826.68,defective
+311,1163,2025-06-22,Incompatible with existing setup,1327.68,defective
+312,1241,2024-10-27,Wrong item shipped,312.12,changed_mind
+313,1830,2024-03-05,Incompatible with existing setup,7110.73,changed_mind
+314,4795,2024-03-12,Wrong item shipped,7424.36,defective
+315,4042,2025-09-13,Changed mind after purchase,1321.65,wrong_item
+316,4870,2024-04-17,Incompatible with existing setup,101.1,changed_mind
+317,3994,2025-07-18,No longer needed,1331.18,not_as_described
+318,1559,2025-03-26,Duplicate order,619.75,not_as_described
+319,4502,2024-09-26,Duplicate order,2313.36,changed_mind
+320,3332,2024-04-14,Product not as described,1314.52,not_as_described
+321,3453,2025-05-28,Changed mind after purchase,1019.51,wrong_item
+322,963,2025-03-28,Wrong item shipped,5492.49,defective
+323,1374,2025-08-16,Changed mind after purchase,2215.95,changed_mind
+324,1437,2024-12-06,Better price found elsewhere,619.33,changed_mind
+325,3351,2025-09-30,Product not as described,2102.72,changed_mind
+326,3299,2024-03-04,Wrong item shipped,790.26,not_as_described
+327,4508,2024-07-23,Better price found elsewhere,3992.23,defective
+328,4047,2025-03-09,Better price found elsewhere,1211.45,changed_mind
+329,3172,2025-04-22,Better price found elsewhere,808.67,changed_mind
+330,3270,2025-08-13,Product not as described,1349.02,not_as_described
+331,4289,2025-05-25,Incompatible with existing setup,984.07,defective
+332,3670,2026-01-12,Changed mind after purchase,733.72,changed_mind
+333,2130,2024-09-02,Incompatible with existing setup,25.39,changed_mind
+334,2102,2024-04-30,Incompatible with existing setup,190.75,wrong_item
+335,3627,2025-06-06,No longer needed,1258.95,wrong_item
+336,1306,2024-07-01,No longer needed,296.25,defective
+337,3473,2024-10-18,Incompatible with existing setup,1258.38,defective
+338,3146,2025-03-23,Incompatible with existing setup,189.27,not_as_described
+339,4894,2024-10-23,Incompatible with existing setup,1242.83,changed_mind
+340,3980,2024-10-30,Product was defective on arrival,738.63,defective
+341,4654,2026-01-25,Changed mind after purchase,135.17,not_as_described
+342,4621,2025-06-05,Better price found elsewhere,70.54,wrong_item
+343,184,2025-07-28,Changed mind after purchase,1636.15,defective
+344,1371,2024-08-08,Incompatible with existing setup,33.38,defective
+345,1868,2025-09-28,Duplicate order,377.89,changed_mind
+346,1116,2025-09-22,Product was defective on arrival,1280.33,not_as_described
+347,3065,2024-02-14,Changed mind after purchase,462.03,changed_mind
+348,4585,2024-04-16,Better price found elsewhere,363.12,not_as_described
+349,2843,2024-08-31,Incompatible with existing setup,747.87,defective
+350,97,2025-12-01,Incompatible with existing setup,292.44,changed_mind
+351,1444,2025-05-09,Product not as described,30310.79,not_as_described
+352,3623,2026-01-10,Product was defective on arrival,152.81,defective
+353,4513,2025-12-25,Better price found elsewhere,2569.12,not_as_described
+354,3744,2025-04-25,No longer needed,864.64,changed_mind
+355,2849,2025-01-13,No longer needed,4053.37,changed_mind
+356,4488,2024-02-17,Incompatible with existing setup,3184.09,not_as_described
+357,3925,2024-09-02,Better price found elsewhere,1509.97,not_as_described
+358,2819,2024-05-14,Incompatible with existing setup,205.58,changed_mind
+359,4130,2024-08-27,Duplicate order,87.45,wrong_item
+360,3802,2025-05-27,Better price found elsewhere,448.59,wrong_item
+361,2182,2025-11-13,No longer needed,688.83,defective
+362,2580,2025-04-12,No longer needed,1952.0,wrong_item
+363,3276,2026-02-03,Incompatible with existing setup,726.69,wrong_item
+364,870,2025-10-20,Incompatible with existing setup,2935.6,wrong_item
+365,4354,2025-09-06,Product not as described,224.11,changed_mind
+366,1652,2025-10-11,Incompatible with existing setup,754.56,defective
+367,557,2024-06-10,Better price found elsewhere,359.97,wrong_item
+368,1581,2024-07-14,Duplicate order,56950.8,changed_mind
+369,52,2024-12-31,Duplicate order,1228.04,defective
+370,3555,2025-01-12,Incompatible with existing setup,3497.33,changed_mind
+371,2984,2026-01-04,Better price found elsewhere,2107.78,wrong_item
+372,1971,2025-07-28,Better price found elsewhere,1383.14,wrong_item
+373,581,2025-12-24,Product was defective on arrival,5477.6,changed_mind
+374,3811,2024-03-27,Wrong item shipped,6541.9,changed_mind
+375,2295,2026-01-30,Incompatible with existing setup,525.94,changed_mind
+376,269,2024-09-24,Product not as described,5322.09,not_as_described
+377,2928,2024-10-10,Better price found elsewhere,1090.85,defective
+378,3003,2025-04-05,Changed mind after purchase,3054.96,changed_mind
+379,4797,2025-02-15,Incompatible with existing setup,130.89,wrong_item
+380,2342,2024-04-06,No longer needed,1624.72,defective
+381,1111,2025-12-26,Wrong item shipped,1967.57,not_as_described
+382,384,2024-03-13,Product was defective on arrival,557.07,changed_mind
+383,2590,2024-05-05,Changed mind after purchase,1194.57,defective
+384,4263,2025-11-07,Product was defective on arrival,133.17,defective
+385,4743,2026-01-30,Better price found elsewhere,168.1,defective
+386,3058,2025-12-14,Incompatible with existing setup,415.59,not_as_described
+387,2606,2023-01-01,Duplicate order,363.68,wrong_item
+388,613,2024-05-01,Better price found elsewhere,3111.27,defective
+389,2084,2024-05-07,Duplicate order,201.59,not_as_described
+390,2128,2024-09-27,Wrong item shipped,540.0,defective
+391,2758,2025-11-15,Better price found elsewhere,5898.42,changed_mind
+392,2907,2024-07-01,Changed mind after purchase,28.04,defective
+393,548,2024-10-15,Product not as described,400.57,changed_mind
+394,4910,2025-05-28,Wrong item shipped,2480.67,not_as_described
+395,94,2025-12-15,No longer needed,717.58,defective
+396,1208,2024-04-09,Product not as described,85.53,defective
+397,4430,2026-01-07,Changed mind after purchase,339.78,defective
+398,4983,2024-09-22,Duplicate order,377.54,changed_mind
+399,2829,2025-10-01,Better price found elsewhere,268.79,wrong_item
+400,1546,2024-08-31,Better price found elsewhere,431.2,wrong_item
+401,1988,2025-03-22,Incompatible with existing setup,132.44,not_as_described
+402,3121,2025-05-16,Better price found elsewhere,793.33,wrong_item
+403,577,2025-06-26,Duplicate order,4557.26,wrong_item
+404,3512,2024-05-21,Changed mind after purchase,310.92,not_as_described
+405,945,2024-07-26,No longer needed,265.95,defective
+406,2846,2024-11-02,Product not as described,325.79,changed_mind
+407,510,2025-11-11,Wrong item shipped,545.89,changed_mind
+408,1910,2025-09-10,Wrong item shipped,331.04,changed_mind
+409,289,2026-01-01,No longer needed,429.99,not_as_described
+410,541,2025-08-01,Incompatible with existing setup,409.33,wrong_item
+411,1993,2024-03-10,Better price found elsewhere,62.68,wrong_item
+412,1334,2024-06-17,Duplicate order,1093.78,changed_mind
+413,1698,2025-11-22,Changed mind after purchase,116.23,not_as_described
+414,1378,2025-03-24,Product not as described,612.74,changed_mind
+415,4957,2024-11-27,Incompatible with existing setup,134.19,changed_mind
+416,2016,2026-02-07,Duplicate order,9010.67,defective
+417,805,2024-11-30,Incompatible with existing setup,6330.99,changed_mind
+418,4757,2024-07-29,Product not as described,2019.3,changed_mind
+419,2303,2026-01-25,Duplicate order,1599.58,not_as_described
+420,1217,2025-09-14,Better price found elsewhere,2054.17,defective
+421,4918,2025-08-18,Changed mind after purchase,2018.46,defective
+422,814,2024-02-18,Product not as described,62.11,defective
+423,4965,2024-11-30,Wrong item shipped,270.81,defective
+424,1156,2026-01-06,Wrong item shipped,343.15,wrong_item
+425,2205,2025-08-29,Better price found elsewhere,394.67,wrong_item
+426,575,2024-02-28,Incompatible with existing setup,10916.47,defective
+427,674,2025-07-18,Duplicate order,5248.49,not_as_described
+428,2312,2025-10-23,Wrong item shipped,688.3,not_as_described
+429,2107,2024-07-19,No longer needed,6521.73,not_as_described
+430,3076,2025-12-05,Changed mind after purchase,80.87,not_as_described
+431,2604,2025-09-03,Wrong item shipped,846.0,defective
+432,2366,2024-07-13,No longer needed,235.85,not_as_described
+433,4860,2024-10-10,Changed mind after purchase,3744.16,defective
+434,905,2024-10-17,Product was defective on arrival,3916.59,defective
+435,4575,2025-11-27,Wrong item shipped,508.72,changed_mind
+436,851,2025-09-28,Wrong item shipped,95.72,changed_mind
+437,4062,2024-02-12,Incompatible with existing setup,2440.04,wrong_item
+438,4775,2025-07-23,Incompatible with existing setup,3111.62,wrong_item
+439,3031,2025-11-20,Incompatible with existing setup,1312.86,defective
+440,1856,2024-04-09,Product was defective on arrival,1358.44,defective
+441,2591,2025-09-24,Product not as described,567.93,changed_mind
+442,4092,2025-02-11,Product not as described,1416.65,wrong_item
+443,3847,2024-05-29,Better price found elsewhere,7257.32,defective
+444,4826,2026-01-16,Wrong item shipped,14641.94,wrong_item
+445,3032,2024-12-15,Better price found elsewhere,4007.35,changed_mind
+446,1617,2025-05-25,Product not as described,215.5,not_as_described
+447,2544,2025-03-21,Changed mind after purchase,1204.63,not_as_described
+448,1473,2025-05-31,Better price found elsewhere,785.31,changed_mind
+449,1906,2026-01-08,Product was defective on arrival,5742.07,defective
+450,4680,2024-09-22,Product was defective on arrival,6495.68,defective
+451,2877,2025-07-07,Changed mind after purchase,6383.63,defective
+452,316,2025-11-21,No longer needed,812.26,changed_mind
+453,3271,2024-06-03,Incompatible with existing setup,2093.71,changed_mind
+454,4845,2024-08-27,Better price found elsewhere,3492.07,changed_mind
+455,3354,2025-01-27,Duplicate order,1902.07,changed_mind
+456,2628,2025-03-09,Better price found elsewhere,901.29,not_as_described
+457,3197,2025-05-17,Incompatible with existing setup,164.97,not_as_described
+458,4048,2025-10-23,Product not as described,2024.45,wrong_item
+459,2361,2024-04-23,Better price found elsewhere,4332.17,defective
+460,636,2024-07-18,Better price found elsewhere,1174.23,changed_mind
+461,2432,2025-04-04,Incompatible with existing setup,879.86,not_as_described
+462,4932,2025-04-05,Wrong item shipped,794.54,wrong_item
+463,3374,2025-02-22,Wrong item shipped,342.01,defective
+464,1162,2024-07-03,Wrong item shipped,2633.2,changed_mind
+465,477,2024-09-04,Product was defective on arrival,496.28,defective
+466,3915,2024-03-07,No longer needed,407.88,not_as_described
+467,1759,2025-08-04,Product not as described,822.9,changed_mind
+468,4002,2024-07-23,Duplicate order,3368.91,not_as_described
+469,2581,2025-08-24,Better price found elsewhere,746.59,not_as_described
+470,502,2024-09-06,Better price found elsewhere,3260.71,wrong_item
+471,2218,2024-03-19,Better price found elsewhere,246.9,wrong_item
+472,194,2024-05-06,Product was defective on arrival,2435.22,defective
+473,1463,2024-03-09,Product was defective on arrival,6742.74,defective
+474,906,2024-12-04,Changed mind after purchase,564.92,changed_mind
+475,2001,2024-05-21,Duplicate order,512.74,wrong_item
+476,4275,2024-08-18,Incompatible with existing setup,466.74,defective
+477,433,2024-06-26,Wrong item shipped,594.42,changed_mind
+478,1401,2025-05-29,Wrong item shipped,2209.17,not_as_described
+479,4314,2025-01-12,Product was defective on arrival,770.29,changed_mind
+480,3977,2025-01-16,Wrong item shipped,58.21,changed_mind
+481,1335,2025-04-03,Duplicate order,1636.39,defective
+482,4522,2026-01-13,Duplicate order,87.0,not_as_described
+483,464,2024-09-28,Changed mind after purchase,613.3,changed_mind
+484,2183,2025-03-30,Wrong item shipped,9324.58,defective
+485,1740,2025-03-01,Incompatible with existing setup,209.96,defective
+486,195,2025-12-09,Incompatible with existing setup,185.35,changed_mind
+487,4385,2025-01-27,Incompatible with existing setup,143.62,not_as_described
+488,4397,2025-09-03,Product was defective on arrival,10007.04,defective
+489,1387,2025-06-27,Incompatible with existing setup,62.26,not_as_described
+490,3954,2025-11-28,No longer needed,310.97,not_as_described
+491,559,2024-05-28,Duplicate order,8440.64,changed_mind
+492,1935,2025-08-19,Duplicate order,167.21,changed_mind
+493,971,2025-11-16,Wrong item shipped,1073.91,wrong_item
+494,2255,2024-03-17,Changed mind after purchase,2178.93,not_as_described
+495,1380,2024-06-11,Better price found elsewhere,159.21,wrong_item
+496,1493,2026-02-10,Product not as described,3380.41,defective
+497,1805,2024-03-08,Product not as described,476.99,not_as_described
+498,3527,2024-08-21,Changed mind after purchase,1118.41,wrong_item
+499,3409,2025-09-07,Incompatible with existing setup,267.09,not_as_described
+500,2602,2024-02-04,Wrong item shipped,347.06,wrong_item
