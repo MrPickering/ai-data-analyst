@@ -1,0 +1,22 @@
+[
+    {
+        "id": 6,
+        "question": "Show me month-over-month revenue growth by product category for the last 12 months"
+    },
+    {
+        "id": 7,
+        "question": "Which customers have a declining order trend over the last 3 quarters?"
+    },
+    {
+        "id": 8,
+        "question": "What's the correlation between discount rate and return rate?"
+    },
+    {
+        "id": 9,
+        "question": "Identify sales reps whose territory performance is below the company average but improving"
+    },
+    {
+        "id": 10,
+        "question": "What would our revenue look like if we eliminated our top 5 most-returned products?"
+    }
+]

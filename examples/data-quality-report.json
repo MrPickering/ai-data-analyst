@@ -1,0 +1,62 @@
+[
+  {
+    "issue_id": "DQ-001",
+    "type": "duplicate",
+    "table": "customers",
+    "affected_rows": 15,
+    "severity": "high",
+    "description": "15 duplicate customer records identified by email address. Same email appears with different customer_id values, causing revenue attribution to be split across records.",
+    "fix_sql": "DELETE FROM customers WHERE customer_id IN (SELECT MAX(customer_id) FROM customers GROUP BY email HAVING COUNT(*) > 1)",
+    "impact": "Order totals may be inflated due to split customer records. Customer lifetime value calculations are inaccurate for affected accounts."
+  },
+  {
+    "issue_id": "DQ-002",
+    "type": "null_values",
+    "table": "orders",
+    "affected_rows": 30,
+    "severity": "high",
+    "description": "30 orders have NULL customer_id, making it impossible to attribute these orders to any customer.",
+    "fix_sql": "SELECT order_id, order_date, total FROM orders WHERE customer_id IS NULL ORDER BY order_date",
+    "impact": "Revenue from these 30 orders cannot be attributed to customer segments, territories, or lifetime value calculations. Estimated unattributed revenue: ~$45,000."
+  },
+  {
+    "issue_id": "DQ-003",
+    "type": "format_inconsistency",
+    "table": "orders",
+    "affected_rows": 20,
+    "severity": "medium",
+    "description": "20 orders have dates in non-standard formats (MM/DD/YYYY or DD-Mon-YYYY instead of YYYY-MM-DD). These will be excluded from date-based queries and trend analysis.",
+    "fix_sql": "UPDATE orders SET order_date = strftime('%Y-%m-%d', order_date) WHERE order_date NOT GLOB '[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]'",
+    "impact": "Time-series analysis and monthly reporting will exclude these 20 orders, potentially understating revenue in affected periods."
+  },
+  {
+    "issue_id": "DQ-004",
+    "type": "logical_impossibility",
+    "table": "products",
+    "affected_rows": 10,
+    "severity": "high",
+    "description": "10 products have negative unit prices, indicating data entry errors.",
+    "fix_sql": "UPDATE products SET unit_price = ABS(unit_price) WHERE unit_price < 0",
+    "impact": "Orders for these products will have incorrect totals. Revenue calculations involving these products are unreliable."
+  },
+  {
+    "issue_id": "DQ-005",
+    "type": "calculated_mismatch",
+    "table": "orders",
+    "affected_rows": 5,
+    "severity": "medium",
+    "description": "5 orders where the total field does not match quantity * unit_price * (1 - discount). Differences range from 50% to 200% of expected values.",
+    "fix_sql": "UPDATE orders SET total = ROUND(quantity * (SELECT unit_price FROM products WHERE products.product_id = orders.product_id) * (1 - discount), 2) WHERE order_id IN (SELECT o.order_id FROM orders o JOIN products p ON o.product_id = p.product_id WHERE ABS(o.total - ROUND(o.quantity * p.unit_price * (1 - o.discount), 2)) > 0.01)",
+    "impact": "Revenue reports are overstated by the excess amounts in these 5 orders."
+  },
+  {
+    "issue_id": "DQ-006",
+    "type": "logical_impossibility",
+    "table": "returns",
+    "affected_rows": 8,
+    "severity": "medium",
+    "description": "8 return records have a return_date that precedes the corresponding order_date, which is logically impossible.",
+    "fix_sql": "SELECT r.return_id, r.return_date, o.order_date FROM returns r JOIN orders o ON r.order_id = o.order_id WHERE r.return_date < o.order_date",
+    "impact": "Return processing timeline analysis is unreliable. These records may indicate data entry errors or system clock issues."
+  }
+]

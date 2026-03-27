@@ -1,0 +1,101 @@
+product_id,name,category,subcategory,unit_price,unit_cost,supplier
+1,Pro Laptop 15,Electronics,Laptops,1740.61,848.76,Supplier-Foxtrot
+2,Pro Laptop 13,Electronics,Audio,28.17,13.99,Supplier-Delta
+3,Ultra Laptop,Electronics,Networking,2423.53,1505.35,Supplier-Delta
+4,Business Laptop,Electronics,Networking,894.3,441.64,Supplier-Echo
+5,Budget Laptop,Electronics,Monitors,1636.15,935.53,Supplier-Delta
+6,4K Monitor 27,Electronics,Accessories,207.43,126.83,Supplier-Alpha
+7,4K Monitor 32,Electronics,Laptops,813.82,519.15,Supplier-Gamma
+8,Ultrawide Monitor,Electronics,Audio,446.01,220.27,Supplier-Alpha
+9,Curved Monitor,Electronics,Laptops,1378.94,861.19,Supplier-Gamma
+10,Portable Monitor,Electronics,Networking,1495.23,827.48,Supplier-Foxtrot
+11,Wireless Mouse,Electronics,Monitors,101.71,64.65,Supplier-Echo
+12,Mechanical Keyboard,Electronics,Laptops,2227.14,978.33,Supplier-Gamma
+13,USB-C Hub,Electronics,Audio,-533.74,238.85,Supplier-Echo
+14,Webcam HD,Electronics,Accessories,1812.04,1055.5,Supplier-Foxtrot
+15,Wireless Headset,Electronics,Laptops,721.77,331.57,Supplier-Delta
+16,Ethernet Switch,Electronics,Monitors,1440.13,878.43,Supplier-Alpha
+17,WiFi Router,Electronics,Accessories,918.05,465.36,Supplier-Foxtrot
+18,NAS Drive 4TB,Electronics,Laptops,1572.1,817.62,Supplier-Alpha
+19,External SSD 1TB,Electronics,Laptops,537.21,300.59,Supplier-Delta
+20,Portable Speaker,Electronics,Networking,2113.33,1008.25,Supplier-Delta
+21,Noise-Cancel Headphones,Electronics,Laptops,1235.51,698.38,Supplier-Foxtrot
+22,USB Microphone,Electronics,Networking,1371.71,612.08,Supplier-Gamma
+23,Monitor Arm,Electronics,Networking,486.79,200.15,Supplier-Delta
+24,Laptop Stand,Electronics,Storage,676.92,412.43,Supplier-Alpha
+25,Surge Protector,Electronics,Laptops,399.05,229.1,Supplier-Alpha
+26,Cable Management Kit,Electronics,Networking,-1678.65,1010.62,Supplier-Echo
+27,Bluetooth Adapter,Electronics,Networking,-588.09,244.2,Supplier-Echo
+28,Card Reader,Electronics,Networking,1061.11,566.5,Supplier-Echo
+29,Docking Station,Electronics,Laptops,2207.09,1145.62,Supplier-Delta
+30,Wireless Charger,Electronics,Storage,2259.37,1307.22,Supplier-Echo
+31,Ergonomic Chair,Office,Breakroom,721.36,396.83,Supplier-Beta
+32,Standing Desk,Office,Supplies,105.02,56.64,Supplier-Beta
+33,Desk Lamp,Office,Supplies,778.01,429.55,Supplier-Alpha
+34,Filing Cabinet,Office,Organization,344.47,205.67,Supplier-Beta
+35,Bookshelf,Office,Breakroom,797.84,404.35,Supplier-Gamma
+36,Whiteboard 4x6,Office,Furniture,262.6,139.64,Supplier-Alpha
+37,Desk Organizer,Office,Paper,316.6,142.26,Supplier-Gamma
+38,Monitor Riser,Office,Furniture,420.55,243.62,Supplier-Foxtrot
+39,Printer Paper Ream,Office,Organization,502.22,241.39,Supplier-Alpha
+40,Legal Pads 12pk,Office,Breakroom,337.41,130.59,Supplier-Echo
+41,Sticky Notes Bulk,Office,Furniture,609.12,356.28,Supplier-Echo
+42,Binder Clips Box,Office,Breakroom,625.84,341.98,Supplier-Gamma
+43,Stapler Heavy-Duty,Office,Organization,703.54,292.7,Supplier-Echo
+44,Tape Dispenser,Office,Paper,491.08,176.48,Supplier-Delta
+45,Label Maker,Office,Organization,123.64,62.09,Supplier-Alpha
+46,Paper Shredder,Office,Supplies,322.68,183.84,Supplier-Alpha
+47,Desk Calendar,Office,Paper,599.14,347.63,Supplier-Alpha
+48,Wall Clock,Office,Paper,276.91,151.86,Supplier-Gamma
+49,Trash Can,Office,Furniture,675.85,381.56,Supplier-Beta
+50,Recycling Bin,Office,Organization,116.16,68.95,Supplier-Gamma
+51,Coffee Maker,Office,Furniture,222.84,101.21,Supplier-Beta
+52,Water Filter,Office,Organization,358.96,207.61,Supplier-Foxtrot
+53,Break Room Supplies,Office,Paper,392.72,188.16,Supplier-Alpha
+54,First Aid Kit,Office,Paper,417.06,162.55,Supplier-Foxtrot
+55,Hand Sanitizer Station,Office,Breakroom,410.37,157.55,Supplier-Echo
+56,Office Suite Pro,Software,Security,43.61,6.04,Supplier-Alpha
+57,Office Suite Basic,Software,Design,-147.26,28.17,Supplier-Foxtrot
+58,Antivirus Enterprise,Software,Development,123.58,21.46,Supplier-Echo
+59,Antivirus Standard,Software,Productivity,216.56,61.64,Supplier-Beta
+60,VPN Business,Software,Security,-205.06,44.87,Supplier-Delta
+61,Password Manager Team,Software,Security,305.83,51.98,Supplier-Gamma
+62,Project Management Tool,Software,Design,382.01,90.83,Supplier-Alpha
+63,CRM License,Software,Security,211.69,28.07,Supplier-Beta
+64,Accounting Software,Software,Design,-334.27,78.73,Supplier-Foxtrot
+65,HR Platform License,Software,Productivity,222.47,23.14,Supplier-Delta
+66,Design Suite Pro,Software,Productivity,458.41,105.19,Supplier-Beta
+67,Photo Editor,Software,Design,148.62,38.79,Supplier-Foxtrot
+68,Video Editor,Software,Development,484.5,110.73,Supplier-Delta
+69,PDF Editor Pro,Software,Security,-430.25,82.52,Supplier-Delta
+70,Code Editor License,Software,Development,172.01,35.11,Supplier-Echo
+71,Database Manager,Software,Design,78.09,15.8,Supplier-Echo
+72,Cloud Storage 1TB,Software,Design,-334.25,74.14,Supplier-Foxtrot
+73,Backup Solution,Software,Design,80.81,9.11,Supplier-Foxtrot
+74,Email Security,Software,Design,182.81,28.4,Supplier-Beta
+75,Collaboration Platform,Software,Productivity,100.47,25.43,Supplier-Echo
+76,IT Consultation Hour,Services,Support,2080.08,790.21,Supplier-Foxtrot
+77,Network Setup,Services,Training,224.73,95.36,Supplier-Gamma
+78,Security Audit,Services,Consulting,4543.87,1822.77,Supplier-Echo
+79,Data Migration Service,Services,Support,-3569.54,1581.34,Supplier-Gamma
+80,Cloud Setup,Services,Installation,3660.09,1301.49,Supplier-Foxtrot
+81,Training Session Basic,Services,Support,1856.64,696.33,Supplier-Foxtrot
+82,Training Session Advanced,Services,Consulting,4394.82,1517.46,Supplier-Delta
+83,On-site Support Day,Services,Support,726.93,265.08,Supplier-Foxtrot
+84,Remote Support Hour,Services,Support,-4508.0,2089.95,Supplier-Gamma
+85,System Integration,Services,Installation,1194.31,618.48,Supplier-Gamma
+86,Hardware Installation,Services,Installation,1921.24,857.63,Supplier-Alpha
+87,Software Deployment,Services,Consulting,2405.63,1242.74,Supplier-Delta
+88,Compliance Review,Services,Installation,4458.19,1895.26,Supplier-Echo
+89,Performance Optimization,Services,Support,1561.94,489.69,Supplier-Beta
+90,Disaster Recovery Plan,Services,Installation,4962.5,1913.87,Supplier-Beta
+91,Rack Server Entry,Hardware,Servers,1616.1,1016.39,Supplier-Delta
+92,Rack Server Pro,Hardware,Components,1696.52,1181.9,Supplier-Foxtrot
+93,Tower Server,Hardware,Servers,337.17,189.83,Supplier-Beta
+94,UPS Battery Backup,Hardware,Servers,2902.58,1421.13,Supplier-Beta
+95,Server RAM 32GB,Hardware,Components,3091.67,1880.89,Supplier-Delta
+96,Server SSD 2TB,Hardware,Servers,4828.37,2635.46,Supplier-Echo
+97,Network Cable 50ft,Hardware,Servers,1037.1,563.43,Supplier-Gamma
+98,Patch Panel,Hardware,Servers,3796.4,2212.38,Supplier-Foxtrot
+99,Server Cabinet,Hardware,Servers,70.41,44.6,Supplier-Foxtrot
+100,KVM Switch,Hardware,Servers,4391.08,2318.59,Supplier-Delta

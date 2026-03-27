@@ -1,0 +1,24 @@
+[project]
+name = "ai-data-analyst"
+version = "1.0.0"
+description = "AI-powered data analyst CLI that replaces hours of analysis work in seconds using Claude"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "PickBits.ai", email = "hello@pickbits.ai" },
+]
+
+dependencies = [
+    "anthropic",
+    "click",
+    "rich",
+    "tabulate",
+    "python-dotenv",
+]
+
+[project.scripts]
+ai-data-analyst = "src.main:cli"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
